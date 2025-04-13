@@ -44,6 +44,18 @@ export function ReportLinks({ isApproved, isManagement, isAdmin }: ReportLinksPr
             >
               Admin List
             </button>
+              <button
+            onClick={() => openInNewWindow('https://psb-report-kappa.vercel.app/interest-calculator')}
+            className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-md"
+          >
+            Additional Interest Voucher
+          </button>
+          <button
+            onClick={() => openInNewWindow('https://psb-reports.vercel.app/interest-calculator')}
+            className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-md"
+          >
+            Aditional Interrest Calculator
+          </button>
           </>
         )}
       </div>
